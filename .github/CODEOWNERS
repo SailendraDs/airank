@@ -1,0 +1,81 @@
+# AIRank - Code Owners
+# This file defines who is responsible for reviewing changes to different parts of the codebase.
+# GitHub will automatically request reviews from the listed owners when pull requests are opened.
+
+# Default owners for everything (required)
+* @sakthiswaroop
+
+# -------------------------------
+# Core Backend
+# -------------------------------
+/server/ @sakthiswaroop
+/server/index.ts @sakthiswaroop
+/server/routes.ts @sakthiswaroop
+/server/storage.ts @sakthiswaroop
+
+# -------------------------------
+# Database & Schema
+# -------------------------------
+/shared/ @sakthiswaroop
+/shared/schema.ts @sakthiswaroop
+/migrations/ @sakthiswaroop
+
+# -------------------------------
+# LLM Integrations
+# -------------------------------
+/server/integrations/llm/ @sakthiswaroop
+/server/services/llm/ @sakthiswaroop
+
+# -------------------------------
+# AI Services
+# -------------------------------
+/server/services/entity-service.ts @sakthiswaroop
+/server/services/content-optimizer.ts @sakthiswaroop
+/server/services/agent-readiness.ts @sakthiswaroop
+/server/services/product-readiness.ts @sakthiswaroop
+/server/services/prompt-topic-matcher.ts @sakthiswaroop
+
+# -------------------------------
+# Background Jobs
+# -------------------------------
+/server/jobs/ @sakthiswaroop
+/server/jobs/workers/ @sakthiswaroop
+
+# -------------------------------
+# Frontend
+# -------------------------------
+/client/ @sakthiswaroop
+/client/src/components/ @sakthiswaroop
+/client/src/pages/ @sakthiswaroop
+/client/src/hooks/ @sakthiswaroop
+
+# -------------------------------
+# Admin Panel
+# -------------------------------
+/client/src/pages/admin/ @sakthiswaroop
+
+# -------------------------------
+# Documentation
+# -------------------------------
+/README.md @sakthiswaroop
+/CONTRIBUTING.md @sakthiswaroop
+/CHANGELOG.md @sakthiswaroop
+/SECURITY.md @sakthiswaroop
+/docs/ @sakthiswaroop
+
+# -------------------------------
+# Infrastructure
+# -------------------------------
+/.github/ @sakthiswaroop
+/deploy/ @sakthiswaroop
+/Dockerfile @sakthiswaroop
+/docker-compose.yml @sakthiswaroop
+
+# -------------------------------
+# Dependencies & Config
+# -------------------------------
+/package.json @sakthiswaroop
+/tsconfig.json @sakthiswaroop
+/vite.config.ts @sakthiswaroop
+/drizzle.config.ts @sakthiswaroop
+/tailwind.config.ts @sakthiswaroop
