@@ -59,10 +59,15 @@ jobs:
           SESSION_SECRET: test-secret-key-for-ci-minimum-32-characters-long
         run: npm run test:run
 
-        # Run tests with coverage
+      - name: Run tests with coverage
+        env:
+          DATABASE_URL: postgresql://test_user:test_password@localhost:5432/airank_test
+          REDIS_URL: redis://localhost:6379
+          NODE_ENV: test
+          SESSION_SECRET: test-secret-key-for-ci-minimum-32-characters-long
         run: npm run test:coverage
 
-        # Upload coverage reports
+      - name: Upload coverage reports
         uses: codecov/codecov-action@v4
         with:
           files: ./coverage/coverage-summary.json
