@@ -105,7 +105,7 @@ AIRank is an open-source AI Brand Visibility Intelligence platform that measures
 
 ```bash
 # Clone the repository
-git clone https://github.com/sakthiswaroop/airank.git
+git clone https://github.com/SailendraDs/airank.git
 cd airank
 
 # Install dependencies
@@ -456,26 +456,12 @@ We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for:
 
 Look for issues labeled `good-first-issue` or `help-wanted` on GitHub.
 
-### AI Credits Application
-
-This project is built with the support of:
-
-- **[Anthropic](https://anthropic.com)** — Claude API for advanced reasoning and analysis
-- **[OpenAI](https://openai.com)** — GPT-4o for multi-platform scanning
-- **[Google AI](https://ai.google.dev)** — Gemini for alternative model perspectives
-
-We are applying for **Claude Open Source Credits** and **OpenAI Open Source Credits** to:
-1. Accelerate AI Visibility Intelligence development
-2. Expand multi-model scanning capabilities
-3. Enhance autonomous agent features
-4. Improve accessibility and documentation
-
 ---
 
 ## 🌐 Community
 
-- **Discussions:** [GitHub Discussions](https://github.com/sakthiswaroop/airank/discussions)
-- **Issues:** [GitHub Issues](https://github.com/sakthiswaroop/airank/issues)
+- **Discussions:** [GitHub Discussions](https://github.com/SailendraDs/airank/discussions)
+- **Issues:** [GitHub Issues](https://github.com/SailendraDs/airank/issues)
 - **Discord:** [Join our Discord](https://discord.gg/airank) (coming soon)
 - **Email:** opensource@airank.io
 
@@ -491,9 +477,6 @@ AIRank is released under the [MIT License](LICENSE).
 
 AIRank is built with the support of:
 
-- **[Anthropic](https://anthropic.com)** — Claude API for advanced reasoning and analysis
-- **[OpenAI](https://openai.com)** — GPT-4o for multi-platform scanning
-- **[Google AI](https://ai.google.dev)** — Gemini for alternative model perspectives
 - **[Vercel](https://vercel.com)** — Frontend hosting and deployment
 - **[Neon](https://neon.tech)** — Serverless PostgreSQL
 - **[Drizzle ORM](https://orm.drizzle.team)** — Type-safe database access
